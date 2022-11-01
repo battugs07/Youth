@@ -1,0 +1,129 @@
+name: youth
+description: youth application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lambda:
+    path: ./lambda
+  flutter_launcher_icons: ^0.10.0
+  get_it: ^7.2.0
+#  shared_preferences: ^0.5.12
+  url_launcher: ^6.1.6
+  flutter_svg: ^0.22.0
+  cached_network_image: ^3.2.1
+  page_transition: ^2.0.9
+  toast: ^0.3.0
+  flutter_verification_code: ^1.1.6
+  # flutter_icons: ^1.1.0
+  flutter_icons_null_safe: ^1.1.0
+  # flutter_spinkit: ^5.1.0
+  bubble_tab_indicator: ^0.1.6
+#  flutter_html: ^1.3.0
+  datetime_picker_formfield: ^2.0.0
+#  pull_to_refresh: ^1.5.7
+  table_calendar: ^3.0.7
+  show_more_text_popup: ^0.3.0
+  webview_flutter: ^2.0.4
+  # flutter_webview_plugin: ^0.4.0
+  flutter_plugin_android_lifecycle: ^2.0.7
+  # font_awesome_flutter: ^8.2.0
+  qr_flutter: ^4.0.0
+  font_awesome_flutter: ^9.0.0
+  fluttericon: ^2.0.0
+  # custom_fade_animation: ^0.0.2
+  # verify_code_input: ^1.0.1
+  majascan: ^0.5.0
+  provider: ^6.0.3
+  cupertino_icons: ^1.0.2
+  ionicons: ^0.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/login-bg.jpg
+    - assets/images/homebg.svg
+    - assets/images/logo.png
+    - assets/images/avatar2.png
+    - assets/images/wallet.png
+    - assets/images/settings.png
+    - assets/images/placeholder.jpg
+    - assets/images/register.png
+    - assets/images/password.png
+    - assets/images/faq.png
+    - assets/images/online.png
+    - assets/images/lock.png
+    - assets/images/scholarship.png
+    - assets/images/volunteer.png
+    - assets/images/training.png
+    - assets/images/other.png
+    - assets/images/leaf.png
+    - assets/images/law.png
+    - assets/images/job.png
+    - assets/images/ux_big.png
+    - assets/images/page-heading-legal.jpg
+    - assets/images/page-heading-law.jpg
+    - assets/images/page-heading-knowledge.jpg
+    - assets/images/page-heading-event.jpg
+    - assets/images/bg-blue.jpg
+    - assets/images/bg-wh.jpg
+    - assets/images/bg-purple.jpg
+    - assets/images/bg-green.jpg
+    - assets/images/logo-zhz.jpg
+    - assets/images/logo-uz-ok.jpg
+    - assets/images/svg/arrow-left.svg
+    - assets/images/svg/page-heading-part-time.svg
+    - assets/images/svg/icon-part-time.svg
+    - assets/images/svg/page-heading-legal.svg
+    - assets/images/svg/page-heading-law.svg
+    - assets/images/svg/page-heading-knowledge.svg
+    - assets/images/svg/page-heading-event.svg
+    - assets/images/svg/page-heading-blog.svg
+    - assets/images/svg/menu-volunteer.svg
+    - assets/images/svg/menu-parttime.svg
+    - assets/images/svg/menu-lesson.svg
+    - assets/images/svg/menu-legal.svg
+    - assets/images/svg/menu-news.svg
+    - assets/images/svg/menu-event.svg
+    - assets/images/svg/menu-zxvz.svg
+    - assets/images/svg/menu-zxz.svg
+    - assets/images/svg/bg-wh.svg
+    - assets/images/svg/Bell.svg
+    - assets/images/svg/Settings.svg
+    - assets/images/svg/Log out.svg
+    - assets/images/svg/Camera Icon.svg
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
